@@ -138,7 +138,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener{
 		g.setColor(Color.white);
 		g.setFont(new Font("Arial",Font.PLAIN,32));
 		if(gameOver) {
-			g.drawString("FUCK YOU BITCH: "+String.valueOf((int)score),10,35);
+			g.drawString("GET GOOD: "+String.valueOf((int)score),10,35);
 		}
 		else {
 			g.drawString(String.valueOf((int)score),10,35);
